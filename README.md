@@ -1,7 +1,7 @@
 # Group 12
 Group Name: TEAM_NAME
 
-[MVP Link](https://docs.google.com/document/d/1xFI9DDdO5HZAcu36Y6NL-RTDry5E3WHkfy-ZEWuqbXM/edit?usp=sharing)
+[MVP Link](docs.google.com/document/d/1YtaroGN7R1F6RG3vgYsXVV3SBD1gP1Zl/edit?usp=drive_web&ouid=112412975839793922056&rtpof=true)
 
 Team Members:
 Dligach2,
