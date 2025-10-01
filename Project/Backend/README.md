@@ -3,6 +3,19 @@ We have written out the code for calculating the expected return. Feel free to r
 
 -------
 
+$$
+{\Large E(R_i) = R_f + \beta (R_m - R_f)}
+$$
+
+
+E(Ri): The Expected Return of Stock i
+
+Rf: Risk-free Return
+
+Rm: Expected Market Return
+
+beta: Stock's Sensitivity to the market
+
 ## Features 
 
 - Calculating the Annual Expected Return of stock *i* using CAPM
@@ -16,4 +29,5 @@ We have written out the code for calculating the expected return. Feel free to r
 
 ## Code
 [CAPM.py](https://github.com/CS196Illinois/FA25-Group12/blob/master/Project/Backend/CAPM.py)
+
 
