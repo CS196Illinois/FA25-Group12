@@ -1,0 +1,16 @@
+# Calculating Expected Annual Return Using CAPM Model ###
+------
+We have written out the code for calculating the expected return. Feel free to run the code and input the stocks you want.
+
+-------
+
+## Features 
+
+- Calculating the Annual Expected Return using CAPM
+- Calculating the actual Annual return with historical data
+
+## Some Notes
+- Historical data means data from 5 years
+- You can input multiple stocks, one at a time, and it prints the return for each stock you input.
+- Rf: using the U.S. 10-year Treasury annual return
+- Rm: using S&P 500 index annual return
