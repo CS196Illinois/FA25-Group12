@@ -27,7 +27,12 @@ beta: Stock's Sensitivity to the market
 - Rf: using the U.S. 10-year Treasury annual return
 - Rm: using S&P 500 index annual return
 
+## How to use
+
+We have written the Python program for the model. Simply download the file and input the stock ticker you want to calculate.
+
 ## Code
 [CAPM.py](https://github.com/CS196Illinois/FA25-Group12/blob/master/Project/Backend/CAPM.py)
+
 
 
