@@ -14,3 +14,6 @@ We have written out the code for calculating the expected return. Feel free to r
 - You can input multiple stocks, one at a time, and it prints the return for each stock you input.
 - Rf: using the U.S. 10-year Treasury annual return
 - Rm: using S&P 500 index annual return
+
+## Code
+[CAPM.py](https://github.com/CS196Illinois/FA25-Group12/blob/master/Project/Backend/CAPM.py)
