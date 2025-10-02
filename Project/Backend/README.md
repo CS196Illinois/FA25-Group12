@@ -34,7 +34,8 @@ When you enter a stock that’s outside the U.S. market, append the region/marke
 Example: Tencent(Tencent is listed in Hong Kong) → 0700.HK, Sony → 6758.T, whereas U.S. stocks like Apple stay AAPL.
 
 ## Code
-[CAPM.py](https://github.com/CS196Illinois/FA25-Group12/blob/master/Project/Backend/CAPM.py)
+[version2](https://github.com/CS196Illinois/FA25-Group12/blob/master/Project/Backend/version2.py)
+
 
 
 
