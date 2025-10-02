@@ -30,9 +30,12 @@ beta: Stock's Sensitivity to the market
 ## How to use
 
 We have written the Python program for the model. Simply download the file and input the stock ticker you want to calculate.
+When you enter a stock that’s outside the U.S. market, append the region/market to the end of its ticker. 
+Example: Tencent(Tencent is listed in Hong Kong) → 0700.HK, Sony → 6758.T, whereas U.S. stocks like Apple stay AAPL.
 
 ## Code
 [CAPM.py](https://github.com/CS196Illinois/FA25-Group12/blob/master/Project/Backend/CAPM.py)
+
 
 
 
