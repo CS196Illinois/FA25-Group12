@@ -115,7 +115,7 @@ annual_returns = sp_year.pct_change().dropna()
 Rm = annual_returns.mean()
 
 tnx = yf.Ticker("^TNX")
-Rf = tnx.history(period="1mo")["Close"].iloc[-1] / 1000  # TNX is ~10Y yield in tenths of a percent; adjust to decimal
+Rf = tnx.history(period="1mo")["Close"].iloc[-1] / 100  # TNX is ~10Y yield in tenths of a percent; adjust to decimal
 
 print("Here is how current market looks like: ")
 print("Expected market return (S&P 500 Index)", Rm)
