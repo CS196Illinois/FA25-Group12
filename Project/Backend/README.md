@@ -1,25 +1,13 @@
-# Calculating Expected Annual Return Using CAPM Model 
-We have written out the code for calculating the expected return. Feel free to run the code and input the stocks you want.
+# Portfolio Optimizer
+We have developed a portfolio optimizer. The program asks the user to input the intended stocks they want to invest in. We are calculating the expected return of each of their stocks, and giving the optimized suggestion on how to allocate their asset. We see a significant improvement in the annual return and Sharpe ratio with the optimized distribution of assets.
 
 -------
-
-$$
-{\Large E(R_i) = R_f + \beta (R_m - R_f)}
-$$
-
-
-E(Ri): The Expected Return of Stock i
-
-Rf: Risk-free Return
-
-Rm: Expected Market Return
-
-beta: Stock's Sensitivity to the market
-
 ## Features 
 
-- Calculating the Annual Expected Return of stock *i* using CAPM
-- Calculating the actual Compound Annual Growth Rate of stock *i* with historical data
+- Calculates the Annual Expected Return of stock *i* using CAPM
+- Calculates the actual Compound Annual Growth Rate of stock *i* with historical data
+- Visualizes the given stock's close price in 5 years with 20-day MA line
+- Optimizes portfolio allocation and outputs the percentage of asset's distribution under different strategies
 
 ## Notes
 - Historical data means data from 5 years
@@ -35,6 +23,29 @@ Example: Tencent(Tencent is listed in Hong Kong) → 0700.HK, Sony → 6758.T, w
 
 ## Code
 [version2](https://github.com/CS196Illinois/FA25-Group12/blob/master/Project/Backend/version2.py)
+
+
+## Reference
+
+Capital Asset Pricing Model (CAPM), calculating the expected return of an asset by assessing its risk compared to the overall market.
+
+$$
+{\Large E(R_i) = R_f + \beta (R_m - R_f)}
+$$
+
+
+- E(Ri): The Expected Return of Stock i
+
+- Rf: Risk-free Return
+
+- Rm: Expected Market Return
+
+- beta: Stock's Sensitivity to the market
+
+
+Modern Portfolio Theory (MPT), balancing the tradeoff between expected return and risk (volatility) in a portfolio of assets.
+
+
 
 
 
