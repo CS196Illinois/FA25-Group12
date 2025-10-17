@@ -1,20 +1,19 @@
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 
 function App() {
   const [message, setMessage] = useState("");
 
   useEffect(() => {
-    // Fetch from backend
-    fetch("http://localhost:8000/api/hello")
+    fetch("http://127.0.0.1:8000/api/hello")  // backend URL
       .then((res) => res.json())
       .then((data) => setMessage(data.message))
-      .catch((err) => console.error("Error fetching backend:", err));
+      .catch((err) => console.error(err));
   }, []);
 
   return (
-    <div style={{ padding: "2rem" }}>
-      <h1>React + FastAPI Test</h1>
-      <p>Backend says: {message}</p>
+    <div>
+      <h1>Stockwebsite + Backend</h1>
+      <p>{message}</p>
     </div>
   );
 }
