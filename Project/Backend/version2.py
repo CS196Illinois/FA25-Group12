@@ -284,3 +284,5 @@ else:
     print(f"Expected Return : {stats_eq['expected_return']:.2%}")
     print(f"Volatility      : {stats_eq['volatility']:.2%}")
     print(f"Sharpe (Rf={Rf:.2%}) : {stats_eq['sharpe']:.3f}")
+
+    print("Your information is complete, reached end of version2.")
