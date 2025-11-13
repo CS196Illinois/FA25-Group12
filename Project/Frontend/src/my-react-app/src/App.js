@@ -1,25 +1,50 @@
-import logo from './logo.svg';
-import './App.css';
+// App.js
+import React from "react";
+import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import Optimizer from "./Optimizer";
+import Definitions from "./Definitions";
 
-function App() {
+const navStyle = {
+  display: "flex",
+  gap: 12,
+  alignItems: "center",
+  padding: 16,
+  borderBottom: "1px solid #e5e7eb",
+  background: "#ffffff",
+};
+
+const linkStyle = {
+  textDecoration: "none",
+  color: "#111827",
+  padding: "8px 12px",
+  borderRadius: 8,
+};
+
+const activeLinkStyle = {
+  ...linkStyle,
+  background: "#111827",
+  color: "white",
+};
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div style={navStyle}>
+        <Link to="/" style={linkStyle}>
+          Optimizer
+        </Link>
+        <Link to="/definitions" style={linkStyle}>
+          Definitions
+        </Link>
+        <div style={{ marginLeft: "auto", color: "#6b7280", fontSize: 14 }}>
+          Portfolio Optimizer — CAPM + Mean-Variance
+        </div>
+      </div>
+
+      <Routes>
+        <Route path="/" element={<Optimizer />} />
+        <Route path="/definitions" element={<Definitions />} />
+      </Routes>
+    </Router>
   );
 }
-
-export default App;
