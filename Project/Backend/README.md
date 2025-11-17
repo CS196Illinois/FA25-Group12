@@ -15,14 +15,25 @@ We have developed a portfolio optimizer. The program asks the user to input the 
 - Rf: using the U.S. 10-year Treasury annual return
 - Rm: using S&P 500 index annual return
 
-## How to use
+## Get Started
 
-We have written the Python program for the model. Simply download the file and input the stock ticker you want to calculate.
+You have to run BOTH Backend and Frontend commands to use our tool!
+
+git clone "https://github.com/CS196Illinois/FA25-Group12.git"
+
+cd Project/Backend
+pip install -r requirements.txt
+python -m uvicorn version2:app --reload --port 8000
+
+cd Project/Frontend/src/my-react-app
+npm install
+npm start
+
+
+## Note
+
 When you enter a stock that’s outside the U.S. market, append the region/market to the end of its ticker. 
 Example: Tencent(Tencent is listed in Hong Kong) → 0700.HK, Sony → 6758.T, whereas U.S. stocks like Apple stay AAPL.
-
-## Code
-[version2](https://github.com/CS196Illinois/FA25-Group12/blob/master/Project/Backend/version2.py)
 
 
 ## Reference
@@ -44,6 +55,7 @@ $$
 
 
 Modern Portfolio Theory (MPT), balancing the tradeoff between expected return and risk (volatility) in a portfolio of assets.
+
 
 
 
