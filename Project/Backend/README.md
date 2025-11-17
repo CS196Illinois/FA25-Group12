@@ -18,6 +18,7 @@ We have developed a portfolio optimizer. The program asks the user to input the 
 ## Get Started
 
 You have to run BOTH Backend and Frontend commands to use our tool!
+```bash
 
 git clone "https://github.com/CS196Illinois/FA25-Group12.git"
 
@@ -55,6 +56,7 @@ $$
 
 
 Modern Portfolio Theory (MPT), balancing the tradeoff between expected return and risk (volatility) in a portfolio of assets.
+
 
 
 
