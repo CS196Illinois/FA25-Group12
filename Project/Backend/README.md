@@ -29,7 +29,7 @@ python -m uvicorn version2:app --reload --port 8000
 cd Project/Frontend/src/my-react-app
 npm install
 npm start
-
+```
 
 ## Note
 
@@ -56,6 +56,7 @@ $$
 
 
 Modern Portfolio Theory (MPT), balancing the tradeoff between expected return and risk (volatility) in a portfolio of assets.
+
 
 
 
