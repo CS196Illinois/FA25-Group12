@@ -16,27 +16,25 @@ We have developed a portfolio optimizer. The program asks the user to input the 
 - Rm: using S&P 500 index annual return
 
 ## Dependencies
-```bash
-git
-```
-```bash
-pip
-```
-```bash
-npm
-```
+- pip
+
+- Node.js
+https://nodejs.org/en/download/prebuilt-installer
 
 ## Get Started
 
 You have to run BOTH Backend and Frontend commands to use our tool!
+Open the first terminal to run Backend:
 ```bash
 
 git clone "https://github.com/CS196Illinois/FA25-Group12.git"
 
 cd FA25-Group12/Project/Backend
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 python -m uvicorn version2:app --reload --port 8000
-
+```
+Open another terminal to run Frontend:
+```bash
 cd FA25-Group12/Project/Frontend/src/my-react-app
 npm install
 npm start
@@ -67,6 +65,7 @@ $$
 
 
 Modern Portfolio Theory (MPT), balancing the tradeoff between expected return and risk (volatility) in a portfolio of assets.
+
 
 
 
