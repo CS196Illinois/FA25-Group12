@@ -54,6 +54,10 @@ npm install
 npm start
 ```
 
+## Demo
+
+<img width="1205" height="912" alt="image" src="https://github.com/user-attachments/assets/690632ca-999c-4a43-8fbd-597632561a1e" />
+
 ## Note for foreign stocks
 
 When you enter a stock that’s outside the U.S. market, append the region/market to the end of its ticker. 
