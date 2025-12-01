@@ -38,6 +38,9 @@ https://nodejs.org/en/download/prebuilt-installer
 ## Get Started
 
 You have to run BOTH Backend and Frontend commands to use our tool!
+
+### Windows
+
 Open the first terminal to run Backend:
 ```bash
 
@@ -46,6 +49,24 @@ git clone "https://github.com/CS196Illinois/FA25-Group12.git"
 cd FA25-Group12/Project/Backend
 python -m pip install -r requirements.txt
 python -m uvicorn version2:app --reload --port 8000
+```
+Open another terminal to run Frontend:
+```bash
+cd FA25-Group12/Project/Frontend/src/my-react-app
+npm install
+npm start
+```
+### MacOS
+
+- On MacOS, Python is installed as python3, not python
+
+Open the first terminal to run Backend:
+
+```bash
+git clone "https://github.com/CS196Illinois/FA25-Group12.git"
+cd FA25-Group12/Project/Backend
+python3 -m pip install -r requirements.txt
+python3 -m uvicorn version2:app --reload --port 8000
 ```
 Open another terminal to run Frontend:
 ```bash
