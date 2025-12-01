@@ -103,4 +103,4 @@ $$
 - beta: Stock's Sensitivity to the market
 
 
-Modern Portfolio Theory (MPT), balancing the tradeoff between expected return and risk (volatility) in a portfolio of assets.
+Modern Portfolio Theory (MPT), balancing the expected return and risk in a portfolio of assets.
