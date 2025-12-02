@@ -14,7 +14,11 @@ rongxiw2
 Project Manager: pillai7
 
 -------
-We have developed a portfolio optimizer. The program asks the user to input the intended stocks they want to invest in. We are calculating the expected return of each of their stocks, and giving the optimized suggestion on how to allocate their asset. We see a significant improvement in the annual return and Sharpe ratio with the optimized distribution of assets.
+💸Suppose you have earned $1,000,000 cash from a job, you heard there is something called “money makes money”. You are interested because it makes you become rich. 
+
+📈Specifically, you want to invest your cash to multiple stocks, funds, or bonds to grow wealth, we call that Portfolio Investment. You noticed that different investments have different risk and returns, then how to distribute your money to make it earns the most while risking the least?
+
+😎We have developed a portfolio optimizer. The program asks the user to input the intended stocks they want to invest in. We are calculating the expected return of each of their stocks, and giving the optimized suggestion on how to allocate their asset. We see a significant improvement in the annual return and Sharpe ratio with the optimized distribution of assets.
 
 ## Features 
 
@@ -39,7 +43,7 @@ https://nodejs.org/en/download/prebuilt-installer
 
 You have to run BOTH Backend and Frontend commands to use our tool!
 
-### Windows
+### Windows 🪟
 
 Open the first terminal to run Backend:
 ```bash
@@ -56,7 +60,7 @@ cd FA25-Group12/Project/Frontend/src/my-react-app
 npm install
 npm start
 ```
-### MacOS
+### MacOS 🍎
 
 - On MacOS, Python is installed as python3, not python
 
