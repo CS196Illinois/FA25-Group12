@@ -138,20 +138,19 @@ def optimize(req: OptimizeRequest):
     period = f"{years}y"
 
     # Market (Rm) & Risk-free (Rf)
-    sp500 = yf.Ticker("^GSPC").history(period=period)["Close"]
+    sp500 = yf.Ticker("NQ=F").history(period=period)["Close"]
     sp_year = sp500.resample("Y").last()
     annual_returns = sp_year.pct_change().dropna()
     Rm = float(annual_returns.mean())
 
-    tnx = yf.Ticker("^TNX").history(period="1mo")["Close"]
-    Rf = float(tnx.iloc[-1] / 100.0)  # decimal
+    Rf = 0.0  # decimal
 
     # Per-stock: CAPM expected returns + daily returns for covariance
     per_stock: Dict[str, Dict[str, float]] = {}
     daily_returns_matrix = []
     capm_mu: Dict[str, float] = {}
 
-    market_full_close = yf.Ticker("^GSPC").history(period=period)["Close"]
+    market_full_close = yf.Ticker("NQ=F").history(period=period)["Close"]
 
     for ticker in req.tickers:
         hist_close = yf.Ticker(ticker).history(period=period)["Close"]
